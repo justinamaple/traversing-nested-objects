@@ -91,12 +91,6 @@ Sweet!
 
 ### Arrays in Arrays
 
-Let's get a little bit more abstract. In the above example, we had a name
-for each field that we wanted to access (`person`, `occupation`, and
-`yearsHeld`). If we had wanted to access the second pet's name, we could have
-done `person.pets[1].name`. Notice that we need to specify the _index_ in the
-`pets` array of the pet that we want (`[1]`).
-
 We're going to get more abstract. In the above example, we had a name for each
 field that we wanted to access (`person`, `occupation`, and `yearsHeld`). If we
 had wanted to access the second pet's name, we could have done
